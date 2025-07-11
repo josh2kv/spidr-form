@@ -31,6 +31,7 @@ export function AirFryerForm() {
 
   const onSubmit = (formValues: AirFryerFormValues) => {
     console.log("form values:", formValues);
+    alert("Form submitted successfully! " + JSON.stringify(formValues));
   };
 
   console.log(form.watch());
