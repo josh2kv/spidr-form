@@ -168,7 +168,7 @@ export function AirFryerForm() {
           <div className="pt-4">
             <Button
               type="submit"
-              className="w-full h-12 font-semibold text-spidr-foreground"
+              className="w-full h-12 font-semibold"
               disabled={form.formState.isSubmitting}
             >
               {form.formState.isSubmitting ? "Submitting..." : "Submit"}

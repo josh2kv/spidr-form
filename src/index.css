@@ -44,8 +44,8 @@
 :root {
   --spidr-background: #252627;
   --spidr-foreground: #d1d0ce;
-  --spidr-primary: #337ab7;
-  --spidr-primary-foreground: #d1d0ce;
+  --spidr-primary: #479daf;
+  --spidr-primary-foreground: #ffffff;
   --spidr-muted-foreground: #969696;
 
   --radius: 0rem;
