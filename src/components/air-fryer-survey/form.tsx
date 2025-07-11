@@ -36,7 +36,7 @@ export function AirFryerForm() {
   console.log(form.watch());
 
   return (
-    <div className="px-8 pb-8">
+    <div className="pb-8">
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
