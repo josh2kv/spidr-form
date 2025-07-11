@@ -24,6 +24,7 @@ export const airFryerFormValuesSchema = z.object({
   phone: z
     .string()
     .min(1, { message: "Phone number is required" })
+    .min(10, { message: "Phone number must be at least 10 digits" })
     .regex(/^[+]?[1-9]\d{0,15}$/, {
       message: "Please enter a valid phone number (max 16 digits)",
     }),
